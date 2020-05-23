@@ -1,0 +1,363 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #D8860B;
+}
+
+header {
+	height: 200px;
+	margin: 5px auto;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+	background-image: url(../Imagens/back01.jpg);
+}
+
+.capacidade {
+width:10%;
+margin-top:5px;
+background-color:#000000;
+color:#FFFFFF;
+font-style:oblique;
+}
+
+#horario {
+  margin-top:6px;	
+}
+
+.sala {
+width:62%;
+}
+
+.slider {
+width:35%;
+height:0px;
+} 
+
+.select {
+width: 100%;
+}
+
+.titulo {
+width:98.5%;
+}
+
+.t {
+width:46%;
+}
+
+.msg {
+width:99%;
+}
+
+
+.td_home {
+	background-color: #E5BB52;	
+	opacity: 0.8;
+   	filter: alpha(opacity=40); 
+}
+
+#tb_atores {
+	text-align: center;
+	position: relative;
+	left: 300px;
+}
+
+#tb_diretor {
+	text-align: center;
+	position: relative;
+	left: 300px;
+}
+
+#tb_salas {
+	text-align: center;
+	position: relative;
+	left: 300px;
+}
+
+#tb_shows {
+	text-align: center;
+	position: relative;
+	left: 300px;
+}
+
+#tb_filme{
+	text-align: center;
+	position: relative;
+	left: 300px;
+}
+
+#tbs_home {
+	border-spacing:5px;
+	position: relative;
+	left: 10px;
+}
+
+#maisVistos {
+	height: 145px;
+	width: 960px;
+	margin-top: 30px;
+	border: 1px;
+	position: relative;
+}
+
+#ultimosAdicionados {
+	height: 200px;
+	width: 960px;
+	border: 1px;
+	position: relative;
+}
+
+#ultimoShow {
+	border: 1px;
+	width:313px;
+	height: 190px;
+	text-align: center;
+}
+
+#ultimoFilme {
+	border: 1px;
+	width:313px;
+	height: 190px;
+	text-align: center;
+}
+
+#fotoUltimosAdicionados {
+	border: 1px;
+	width:310px;
+	height: 190px;
+	background-color: #FFF;
+}
+
+#filmeMaisVisto {
+	border: 1px;
+	width:313px;
+	height: 110px;
+	text-align: center;
+}
+
+#showMaisVisto {
+	border: 1px;
+	width:313px;
+	height: 110px;
+	text-align: center;
+}
+
+#fotoMaisVisto {
+	border: 1px;
+	width:310px;
+	height: 110px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+}
+
+footer {	
+	width: 960px;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px;
+}
+
+#video{
+	text-align: center;	
+}
+
+img, video {
+	max-width:100%;
+}
+
+h2#sobre{
+	font-size: 29px;
+	text-align: center;
+}
+
+#logo img{
+	float: center;
+	width: 30%;
+	padding: 60px;
+	margin: 0px 10px 10px 0px;
+}
+
+/* Inicio do Menu, todas as configurações retiradas do site W3School e de video aulas dos cursos web gratuitos*/
+#menu, #menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu {
+    width: 960px;
+    margin: 10px auto;
+    border: 1px solid #222;
+    background-color: #111;
+    background-image: linear-gradient(#444, #111);
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #777;
+}
+
+#menu:before, #menu:after {
+    content: "";
+    display: table;
+}
+
+#menu:after {
+    clear: both;
+}
+
+#menu {
+    zoom:1;
+}
+
+#menu li {
+    float: left;
+    border-right: 1px solid #222;
+    box-shadow: 1px 0 0 #444;
+    position: relative;
+}
+
+#menu a {
+    float: left;
+    padding: 12px 30px;
+    color: #999;
+    text-transform: uppercase;
+    font: bold 12px Arial, Helvetica;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+}
+
+#menu li:hover > a {
+    color: #fafafa;
+}
+
+*html #menu li a:hover { 
+    color: #fafafa;
+}
+
+#menu ul {
+    margin: 20px 0 0 0;
+    _margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index: 1;    
+    background: #444;   
+    background: linear-gradient(#444, #111);
+    box-shadow: 0 -1px 0 rgba(255,255,255,.3);  
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+
+#menu li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+#menu ul ul {
+    top: 0;
+    left: 150px;
+    margin: 0 0 0 20px;
+    _margin: 0; 
+    box-shadow: -1px 0 0 rgba(255,255,255,.3);      
+}
+
+#menu ul li {
+    float: none;
+    display: block;
+    border: 0;
+    _line-height: 0; 
+    box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+}
+
+#menu ul li:last-child {   
+    box-shadow: none;    
+}
+
+#menu ul a {    
+    padding: 10px;
+    width: 130px;
+    _height: 10px; 
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+#menu ul a:hover {
+    background-color: #0186ba;
+    background-image: linear-gradient(#04acec, #0186ba);
+}
+
+#menu ul li:first-child > a {
+    border-radius: 3px 3px 0 0;
+}
+
+#menu ul li:first-child > a:after {
+    content: '';
+    position: absolute;
+    left: 40px;
+    top: -6px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #444;
+}
+
+#menu ul ul li:first-child a:after {
+    left: -6px;
+    top: 50%;
+    margin-top: -6px;
+    border-left: 0; 
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    border-right: 6px solid #3b3b3b;
+}
+
+#menu ul li:first-child a:hover:after {
+    border-bottom-color: #04acec; 
+}
+
+#menu ul ul li:first-child a:hover:after {
+    border-right-color: #0299d3; 
+    border-bottom-color: transparent;   
+}
+
+#menu ul li:last-child > a {
+    border-radius: 0 0 3px 3px;
+}
+
+/* Fim do menu drop-down produzido nas aulas online*/
+
+/* Permitindo ao sistema que se adapte aos dispositivos diferentes sem perder qualidade*/
+
+@media all and (min-width:960px) {
+	body{
+		width:960px;
+		margin:auto;
+	}
+}
+
+@media all and (max-width:480px) {
+	nav {
+		heigth:100%;
+	}
+	
+	nav li {
+		display:block;
+		padding:10px;
+		margin:0px;
+	}
+}
+
+/* Fim do codigo para tornar nosso sistema mais flexivel */
